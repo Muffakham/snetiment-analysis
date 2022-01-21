@@ -85,7 +85,6 @@ firebase-admin==4.4.0
 fix-yahoo-finance==0.0.22
 Flask==1.1.4
 Flask-Cors==3.0.10
-flask-ngrok==0.0.25
 flatbuffers==2.0
 folium==0.8.3
 future==0.16.0
@@ -277,7 +276,6 @@ pymc3==3.11.4
 PyMeeus==0.5.11
 pymongo==4.0.1
 pymystem3==0.2.0
-pyngrok==5.1.0
 PyOpenGL==3.1.5
 pyparsing==3.0.6
 pyrsistent==0.18.0

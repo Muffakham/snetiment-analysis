@@ -1,0 +1,36 @@
+dataset:
+  dataset_dir: ../datasets
+  script_path: ../datasets/ingestData.py
+  processed_dir: ../datasets/processed/
+  rawfiles_dir: ../datasets/raw/
+
+pre_process:
+  storage_dir: ../datasets/processed/
+  script_path: ../pre_processing/preprocess.py
+  model_dir: ../models/
+
+training:
+  split: False
+  preprocess_dir: ../datasets/preProcessed/
+  script_path: ../training/train.py
+  config_path: ../training/config.json
+  model_dir: ../models/
+
+deploy:
+  script_path: ../app.py
+
+
+
+
+  
+    
+
+
+
+
+
+    
+
+
+
+

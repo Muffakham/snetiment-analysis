@@ -1,0 +1,1 @@
+{"logisticRegression": {"reduced_dimension": 0.95, "gridSearch": true, "penalty": "l2", "solver": "liblinear", "max_iter": 400, "class_weight": "balanced"}, "randomForest": {"reduced_dimension": 0.95, "gridSearch": true, "criterion": "gini", "max_depth": 5, "min_samples_split": 200}}

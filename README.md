@@ -1,6 +1,6 @@
 # ML pipeline for Sentiment analysis.
 
-## About the Projetc
+## About the Project
   * This is an implementation of a simple ML pipeline to build a Softmax classifier for sentiment analysis.
   * The dataset used is the SST dataset, comprising of arounf 11K samples.
   * The classification model classifies a given text into threee sentiments:

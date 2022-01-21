@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_ngrok import run_with_ngrok
 from flask import request
 from flask_cors import CORS, cross_origin
 from pre_processing.pipeline import pre_process

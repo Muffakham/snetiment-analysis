@@ -19,6 +19,10 @@
 pip3 install -r requirements.txt
 python3 main.py -f experiments/pipe.yml
 ```
+
+## Note
+Since the project was trained on a free cloud instance of google Colab, the requirements frozen in the requirements.txt file comprises a long list of packages pre-installed there. Not all the packages in it are necessary to run the code.
+
 ## Project Structure
 
       ├── datasets                    # contains all files realted to the data and data ingestion script

@@ -13,6 +13,12 @@
     * Embedding the data - The text data is converted into TF-IDF embeddings, followed by dimensionality reducntion using PCA.
     * Training the model -  A softmax classifier model is trained for this multi class classification task. 
     * Deploying the model - once the model is trained and tested, it is deployed using python flask. 
+
+## Running the project
+```sh
+pip3 install -r requirements.txt
+python3 main.py -f experiments/pipe.yml
+```
 ## Project Structure
 
       ├── datasets                    # contains all files realted to the data and data ingestion script
